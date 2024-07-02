@@ -1,0 +1,90 @@
+/* Container styles */
+.container{
+  height:40rem;
+  max-width: 45rem;
+  margin: auto;
+  margin-top: 500px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px; /* Add margin-top for separation from navbar */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Responsive title */
+#title {
+  text-align: center;
+  font-size: 2.5rem; /* Adjust font size for larger screens */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px; /* Space between title and form */
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px; /* Space below each label */
+}
+
+/* Input field styles */
+.form-control {
+  width: 100%; /* Full width for responsiveness */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-control-textarea {
+  width: 100%; /* Full width of the container */
+  min-height: 50px; /* Minimum height for the textarea */
+  padding: 10px; /* Padding inside the textarea */
+  font-size: 16px; /* Font size of the text */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Rounded corners */
+  resize: none; /* Allow vertical resizing */
+}
+
+
+/* File input styles */
+.form-control-file {
+  width: 100%; /* Full width for responsiveness */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Primary button styles */
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Full width for responsiveness */
+  max-width: 200px; /* Limit max width for large screens */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 45px; /* Adjust padding for smaller screens */
+  }
+  #title {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+}
